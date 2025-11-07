@@ -5,13 +5,13 @@ const projects = [
   {
     title: 'Line Follower Robot',
     icon: Bot,
-    desc: 'PID tuned line follower using IR sensors and DC motors with encoder feedback.',
+    desc: 'PID-tuned line follower using IR sensors and DC motors with encoder feedback.',
     link: '#',
   },
   {
     title: 'Obstacle Avoider',
     icon: Cpu,
-    desc: 'Ultrasonic-based navigation with simple SLAM visualization in the browser.',
+    desc: 'Ultrasonic-based navigation with simple mapping and visualization in the browser.',
     link: '#',
   },
   {
@@ -28,7 +28,7 @@ export default function Projects() {
       <div className="mb-10 flex items-end justify-between">
         <div>
           <h2 className="text-2xl font-semibold sm:text-3xl">Projects</h2>
-          <p className="mt-2 text-white/70">A few things Ive been building and experimenting with.</p>
+          <p className="mt-2 text-white/70">A few things I've been building and experimenting with.</p>
         </div>
         <a href="#contact" className="hidden rounded-md bg-white/10 px-3 py-2 text-sm text-white/90 hover:bg-white/20 sm:inline-flex">Contact me</a>
       </div>

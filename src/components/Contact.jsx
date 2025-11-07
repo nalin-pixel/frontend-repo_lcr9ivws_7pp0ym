@@ -9,7 +9,7 @@ export default function Contact() {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    // For now, simulate a send. Backend can be added later.
+    // Simulate a send for now. Backend or third-party form can be integrated later.
     setSent(true);
   };
 
@@ -23,7 +23,7 @@ export default function Contact() {
         <div className="grid gap-10 md:grid-cols-2">
           <p className="text-white/70">
             Want to collaborate or chat about robotics and programming? Feel free to reach out.
-            Im always excited to learn and build new things.
+            I'm always excited to learn and build new things.
           </p>
           <form onSubmit={onSubmit} className="grid gap-4">
             <input

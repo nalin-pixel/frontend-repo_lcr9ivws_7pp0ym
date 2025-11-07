@@ -23,10 +23,10 @@ export default function Hero() {
           <span>Programming • Robotics • Student</span>
         </div>
         <h1 className="text-4xl font-semibold leading-tight sm:text-5xl md:text-6xl">
-          Hi, I'm <span className="bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent">a Student</span>
+          Hi, I'm <span className="bg-gradient-to-r from-white to-blue-300 bg-clip-text text-transparent">a student</span>
         </h1>
         <p className="mt-4 max-w-2xl text-base text-white/70 sm:text-lg">
-          I build interactive projects blending code and robotics. Explore my work, prototypes, and learning journey.
+          I am a student with interests in programming and robotics — building interactive projects that blend code with hardware.
         </p>
         <div className="mt-8 flex items-center gap-3">
           <a
